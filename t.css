@@ -1,0 +1,255 @@
+body,html{
+    height:100%;
+    width:100%;
+}
+.header{
+    background:url('bg1.jpg');
+    height:150vh;
+    width:100vw;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display:flex;
+    align-items:top;
+   
+    -webkit-box-reflect:below -12px linear-gradient(transparent, rgba(0,0,0,0.2));
+   
+}
+h1{
+    margin-top: 40px;
+}
+.header span{
+    position:relative;
+    display:inline-block;
+    font-size:2em;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+}
+@keyframes animate{
+    0%{
+        transform:translateY(0px);
+
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40%,100%{
+        transform:translateY(0px)
+    }
+}
+li{
+    font-size:2em;
+}
+.box1{
+    position:absolute;
+    text-align:left;
+    margin-top:200px;
+    margin-left:-900px;
+    font-size:1em;
+
+}
+
+  .ball1{
+      position:absolute;
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: #b2ff22; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top:110px;
+    margin:450px;
+  }
+  .ball2{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: red; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top:350px;
+    position:absolute;
+    margin:330px 490px;
+
+    
+  }
+  .ball3{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: skyblue; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 100px;
+    position:absolute;
+    margin-left:463px;
+  }
+  .ball4{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: salmon; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top:432px;
+    position:absolute;
+    margin-left:990px;
+    
+  }
+  .ball5{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: tomato; 
+    justify-content: left;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top:320px;
+    position:absolute;
+    margin-left:880px;
+    
+  }
+  .ball6{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: orchid; 
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 430px;
+    position:absolute;
+    margin-left:720px;
+  }
+  .ball7{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: firebrick; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top:220px;
+    position:absolute;
+    margin-left:680px
+    
+  }
+  .ball8{
+  position:absolute;
+  height:50px;
+  width:50px;
+  border-radius: 50%; 
+  background-color: navajowhite; 
+  justify-content: center;
+  text-align:center;
+  text-transform: uppercase;
+  animation:animate 1s ease-in-out infinite;
+  animation-delay: calc(0.1s*var(--i));
+  margin-top:110px;
+  margin:350px 320px;}
+  .ball9{
+    
+        height:50px;
+        width:50px;
+        border-radius: 50%; 
+        background-color: cornflowerblue; 
+        justify-content: center;
+        text-align:center;
+        text-transform: uppercase;
+        animation:animate 1s ease-in-out infinite;
+        animation-delay: calc(0.1s*var(--i));
+        margin-top: 100px;
+        position:absolute;
+        margin-left:663px;
+      
+  }
+  .ball10{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: darkcyan; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 100px;
+    position:absolute;
+    margin-left:463px;
+  }
+  .ball11{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: chocolate; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 150px;
+    position:absolute;
+    margin-left:863px;
+  }
+  .ball12{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: coral; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 100px;
+    position:absolute;
+    margin-left:963px;
+  }
+  .ball13{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: aqua; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 100px;
+    position:absolute;
+    margin-left:1163px;
+  }
+  .ball14{
+    height:50px;
+    width:50px;
+    border-radius: 50%; 
+    background-color: palevioletred; 
+    justify-content: center;
+    text-align:center;
+    text-transform: uppercase;
+    animation:animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s*var(--i));
+    margin-top: 20px;
+    position:absolute;
+    margin-left:1063px;
+  }
